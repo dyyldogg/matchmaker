@@ -1,4 +1,4 @@
-# 🎮 Student Matchmaker 🎮
+# SandBox MatchMaker
 
 A fun, colorful webapp for pairing students in classroom settings with a vibrant, engaging design!
 
@@ -16,7 +16,7 @@ A fun, colorful webapp for pairing students in classroom settings with a vibrant
 1. Open `index.html` in your web browser
 2. Enter the number of students in your class
 3. Set the number of rounds and time per round
-4. Click "START THE GAME!" to begin
+4. Click "Proceed" to begin
 5. Students will see their pair numbers on screen
 6. Timer counts down for each round
 7. Click "Next Round" to continue to the next pairing
@@ -87,5 +87,5 @@ Want to change the theme? Edit the CSS variables in `styles.css`:
 - Animations: Modify the keyframe animations
 - Layout: Adjust the grid and flexbox properties
 
-Enjoy your fun classroom pairing experience! 🎮✨
+Enjoy your fun classroom pairing experience!
 # matchmaker

@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Matchmaker</title>
+    <title>SandBox MatchMaker</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header class="header">
-            <h1 class="title">🎮 STUDENT MATCHMAKER 🎮</h1>
-            <p class="subtitle">Fun Classroom Pairing</p>
+            <h1 class="title">SANDBOX MATCHMAKER</h1>
+            <p class="subtitle">Classroom Pairing System</p>
         </header>
 
         <div class="setup-panel" id="setupPanel">
-            <h2>⚙️ Setup Your Class ⚙️</h2>
+            <h2>Setup Your Class</h2>
             <div class="input-group">
                 <label for="studentCount">Number of Students:</label>
                 <input type="number" id="studentCount" min="2" max="50" value="20">
@@ -28,7 +28,7 @@
                 <label for="timePerRound">Time per Round (minutes):</label>
                 <input type="number" id="timePerRound" min="0.5" max="10" step="0.5" value="2.5">
             </div>
-            <button class="start-btn" id="startBtn">🚀 START THE GAME! 🚀</button>
+            <button class="start-btn" id="startBtn">Proceed</button>
         </div>
 
         <div class="game-panel" id="gamePanel" style="display: none;">
@@ -42,17 +42,17 @@
             </div>
 
             <div class="controls">
-                <button class="next-round-btn" id="nextRoundBtn" style="display: none;">Next Round ➡️</button>
-                <button class="reset-btn" id="resetBtn">🔄 Reset Game</button>
+                <button class="next-round-btn" id="nextRoundBtn" style="display: none;">Next Round</button>
+                <button class="reset-btn" id="resetBtn">Reset Game</button>
             </div>
         </div>
 
         <div class="floating-elements">
-            <div class="coin coin-1">🪙</div>
-            <div class="coin coin-2">🪙</div>
-            <div class="coin coin-3">🪙</div>
-            <div class="star star-1">⭐</div>
-            <div class="star star-2">⭐</div>
+            <div class="coin coin-1">●</div>
+            <div class="coin coin-2">●</div>
+            <div class="coin coin-3">●</div>
+            <div class="star star-1">★</div>
+            <div class="star star-2">★</div>
         </div>
     </div>
 

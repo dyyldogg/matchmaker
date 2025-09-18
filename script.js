@@ -39,7 +39,7 @@ class StudentMatchmaker {
         this.timePerRound = parseFloat(this.timePerRoundInput.value);
 
         if (studentCount < 2) {
-            alert('You need at least 2 students to play!');
+            alert('You need at least 2 students to proceed!');
             return;
         }
 
@@ -89,7 +89,7 @@ class StudentMatchmaker {
 
         if (pair[1] === 'Everyone') {
             pairCard.innerHTML = `
-                <h3>🌟 Special Round 🌟</h3>
+                <h3>Special Round</h3>
                 <div class="student-numbers">
                     <div class="student-number">${pair[0]}</div>
                     <div class="vs-text">meets</div>
@@ -165,7 +165,7 @@ class StudentMatchmaker {
 
     createConfetti() {
         const confetti = document.createElement('div');
-        confetti.innerHTML = ['🎉', '🎊', '⭐', '🪙', '🎈'][Math.floor(Math.random() * 5)];
+        confetti.innerHTML = ['●', '★', '◆', '▲', '■'][Math.floor(Math.random() * 5)];
         confetti.style.position = 'fixed';
         confetti.style.left = Math.random() * window.innerWidth + 'px';
         confetti.style.top = '-50px';
@@ -205,12 +205,12 @@ class StudentMatchmaker {
         
         this.pairsContainer.innerHTML = `
             <div class="pair-card" style="grid-column: 1 / -1; text-align: center;">
-                <h3>🎉 Congratulations! 🎉</h3>
+                <h3>Congratulations!</h3>
                 <p style="font-size: 1.2rem; margin: 20px 0; color: #006400;">
                     All rounds completed! Everyone has had a chance to meet!
                 </p>
                 <div style="font-size: 3rem; margin: 20px 0;">
-                    🎮 🏆 🎊
+                    GAME COMPLETE
                 </div>
             </div>
         `;
